@@ -1,0 +1,202 @@
+@media (min-width: 769px) and (max-width: 1024px) {
+  .content-width {
+    margin: auto;
+  }
+  /* Common Styles */
+  .header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.466);
+    color: #ffffff;
+    z-index: 1;
+    margin-bottom: -87px;
+    height: 86px;
+  }
+
+  .header-Links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+
+  .header-Links li {
+    margin-right: 20px;
+    float: right;
+    list-style: none;
+  }
+
+  .header-Links button {
+    padding: 17px 40px;
+    background-color: #5a95ac;
+    color: #ffffff;
+    border: #c5c5c5 1px solid;
+  }
+
+  .splitt-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .card-row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .card-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+
+  .card-banner {
+    height: 450px;
+    width: 85%;
+    background-position: top;
+    border: solid rgb(236, 236, 236) 1px;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-content {
+    height: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  .card-bottom-content {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  /* Style for the Image-Div */
+  .Image-Div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Add padding as needed */
+    box-sizing: border-box;
+    text-align: center; /* Align the content center horizontally */
+    position: relative; /* Create a relative positioning context */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .Text-div {
+    flex: 1;
+    padding-top: 50px;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .Text-div div {
+    width: 70%;
+  }
+
+  .image-container {
+    overflow: hidden;
+  }
+  .testimonial-Section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial-Image {
+    background-image: url(/Resurer/Figma/Frame\ 8.png);
+    height: 50vh;
+  }
+
+  .testimonial-Slider {
+    background-color: #f8f6f4;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .product-Slider {
+    height: 10vh;
+    background-color: #f8f6f4;
+  }
+
+  .footer-wrapper {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 90%;
+  }
+
+  .footer-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin: auto;
+    height: 275px;
+    align-items: center;
+  }
+
+  .footer-description {
+    width: 30%;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-around;
+  }
+  .footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .Nyhetsbrev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 160px;
+  }
+
+  .Nyhetsbrev #Email {
+    padding: 12px 13px;
+  }
+
+  .Nyhetsbrev #Premurera {
+    background-color: #92c5da;
+    stroke-width: 1px;
+    border: solid 1px #046993;
+    padding: 13px 20px;
+  }
+  #Notmobile {
+    display: none;
+  }
+}

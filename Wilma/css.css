@@ -1,0 +1,95 @@
+/* Media Query for Larger Screens */
+@media (min-width: 1025px) {
+  .content-width {
+    width: 70vw;
+    margin: 0 auto; /* Center-align the content */
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Cards Section */
+.card-row {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.card-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.card-banner {
+  height: 518px;
+  background-position: top;
+  border: solid rgb(236, 236, 236) 1px;
+  border-radius: 7px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.card-bottom-content {
+  padding: 20px;
+  background-color: white;
+}
+
+/* Banner Images */
+.banner {
+  background-size: cover;
+  background-position: top;
+}
+
+/* Splitt Section */
+.splitt-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50vh;
+}
+
+/* Style for the Image-Div */
+.Image-Div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: center;
+  padding: 20px; /* Add padding as needed */
+  box-sizing: border-box;
+  text-align: center; /* Align the content center horizontally */
+  position: relative; /* Create a relative positioning context */
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Text-div {
+  flex: 1;
+  padding-top: 50px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.Text-div div {
+  width: 70%;
+}
+
+.image-container {
+  overflow: hidden;
+}

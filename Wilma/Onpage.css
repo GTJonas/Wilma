@@ -1,0 +1,276 @@
+/* Banner Images */
+
+#behandlingar-banner {
+  background-image: url(/Resurer/Temp/Behandlingar.jpg);
+}
+
+#sparelax-banner {
+  background-image: url(/Resurer/Temp/SpaRelax.jpg);
+}
+
+#webbshop-banner {
+  background-image: url(/Resurer/Temp/Webbshop.jpg);
+}
+
+#splitsection3 {
+  margin-bottom: 35px;
+}
+#splitsection3 img {
+  width: 100%;
+}
+
+@media (min-width: 1025px) {
+  /* Background Video Container */
+
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Shared styles for .video-content and .video-container */
+  .video-container {
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+
+  .video-content {
+    position: absolute;
+    left: 36%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #Image > div {
+    width: 80%;
+    height: 80%;
+    overflow: hidden;
+  }
+
+  /* Style for the colored overlay using ::before pseudo-element */
+  #Image::before {
+    content: "";
+    background-color: rgb(
+      255,
+      230,
+      120
+    ); /* Set your desired background color */
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    height: 85%;
+    z-index: -1;
+  }
+
+  /* Style for the image inside the Image-Div */
+  #Image-container img {
+    display: block; /* Remove any extra spacing below the image */
+    margin: 0 auto; /* Center the image horizontally */
+    object-fit: cover;
+  }
+
+  #Image2 > div {
+    width: 60%;
+    height: 80%;
+    overflow: hidden;
+  }
+  #Image2-container img {
+    display: block; /* Remove any extra spacing below the image */
+    margin: 0 auto; /* Center the image horizontally */
+    object-fit: cover;
+    object-position: center;
+  }
+
+  /* Style for the colored overlay using ::before pseudo-element */
+  #Image2::before {
+    content: "";
+    background-color: rgb(
+      255,
+      230,
+      120
+    ); /* Set your desired background color */
+    position: absolute;
+    left: 65%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    height: 82%;
+    z-index: -1;
+  }
+}
+/*Tablet*/
+@media (min-width: 769px) and (max-width: 1024px) {
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Shared styles for .video-content and .video-container */
+  .video-container {
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+
+  .video-content {
+    position: absolute;
+    left: 36%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #Image > div {
+    display: none;
+  }
+  #splitsection2 {
+    flex-direction: column-reverse !important;
+  }
+
+  /* Style for the image inside the Image-Div */
+  #Image img {
+    display: block; /* Remove any extra spacing below the image */
+    margin: 0 auto; /* Center the image horizontally */
+    object-fit: cover;
+  }
+
+  #Image2 > div {
+    width: 601px;
+    height: 331px;
+    overflow: hidden;
+  }
+
+  /* Style for the colored overlay using ::before pseudo-element */
+  #Image2::before {
+    content: "";
+    background-color: rgb(
+      255,
+      230,
+      120
+    ); /* Set your desired background color */
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    height: 82%;
+    z-index: -1;
+  }
+
+  /* Style for the image inside the Image-Div */
+  #Image2 img {
+    display: block; /* Remove any extra spacing below the image */
+    margin: 0 auto; /* Center the image horizontally */
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 768px) {
+  .background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* Shared styles for .video-content and .video-container */
+  .video-container {
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+
+  .video-content {
+    position: absolute;
+    left: 36%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #Image > div {
+    width: 40%;
+    height: 331px;
+    overflow: hidden;
+  }
+  #splitsection2 {
+    flex-direction: column-reverse !important;
+  }
+
+  /* Style for the colored overlay using ::before pseudo-element */
+  #Image::before {
+    content: "";
+    background-color: rgb(
+      255,
+      230,
+      120
+    ); /* Set your desired background color */
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  /* Style for the image inside the Image-Div */
+  #Image img {
+    display: block; /* Remove any extra spacing below the image */
+    margin: 0 auto; /* Center the image horizontally */
+    object-fit: cover;
+  }
+
+  #Image2 > div {
+    width: 40%;
+
+    height: 331px;
+    overflow: hidden;
+  }
+
+  /* Style for the colored overlay using ::before pseudo-element */
+  #Image2::before {
+    content: "";
+    background-color: rgb(
+      255,
+      230,
+      120
+    ); /* Set your desired background color */
+    position: absolute;
+    left: 65%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    height: 82%;
+    z-index: -1;
+  }
+
+  /* Style for the image inside the Image-Div */
+  #Image2 img {
+    display: block; /* Remove any extra spacing below the image */
+    margin: 0 auto; /* Center the image horizontally */
+    object-fit: cover;
+  }
+}

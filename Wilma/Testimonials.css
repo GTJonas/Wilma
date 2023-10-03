@@ -1,0 +1,118 @@
+/* Adjust the width of the testimonial slider container */
+.testimonial-slider-container {
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: #ffffff;
+}
+.testimonial-slider {
+  width: 800px; /* Adjust the width as needed */
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Styling for individual testimonial slides */
+.testimonial-slide {
+  width: 100%;
+  display: none; /* Hide all slides initially */
+}
+
+/* Display the active slide */
+.testimonial-slide.active {
+  display: block;
+}
+
+/* Style the testimonial image */
+.testimonial-slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+.testimonial-slider-container a {
+  color: white;
+  text-decoration: none;
+}
+.testimonial-item {
+  width: 50%;
+  gap: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.rating {
+  font-size: 32px;
+}
+.rating p {
+  margin: 0;
+  padding: 0;
+}
+.emptystar {
+  color: gray;
+  padding: 0;
+  margin: 0;
+}
+.star {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+/* Pagination container */
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Style for pagination items */
+.pagination-item {
+  display: inline-block;
+  width: 10px; /* Adjust the width of each pagination item */
+  height: 10px; /* Adjust the height of each pagination item */
+  background-color: #ccc;
+  border-radius: 50%;
+  margin: 0 5px; /* Adjust the spacing between pagination items */
+  cursor: pointer;
+}
+
+/* Color for active pagination item */
+.pagination-item.active {
+  background-color: #ebebeb;
+}
+
+@media (min-width: 1025px) {
+  .testimonial-slider {
+    width: 70%; /* Adjust the width as needed */
+    height: 300px;
+    display: flex;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .testimonial-slider {
+    width: 80%; /* Adjust the width as needed */
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .testimonial-slider {
+    width: 80%; /* Adjust the width as needed */
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

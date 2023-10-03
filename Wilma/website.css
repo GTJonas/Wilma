@@ -1,0 +1,76 @@
+/* Standard Styles */
+
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a basic font and background color to the entire site */
+body {
+  font-family: "Open Sans", sans-serif; /* Updated font-family */
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Add some spacing around elements */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for headings */
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Cormorant Garamond", serif; /* Updated font-family */
+  margin-bottom: 20px;
+}
+
+/* Style for paragraphs */
+p {
+  line-height: 1.6;
+  font-family: "Open Sans", sans-serif; /* Updated font-family */
+}
+
+/* Style for links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Style for buttons */
+button {
+  background-color: #92c5da;
+  stroke-width: 1px;
+  border: solid 1px #046993;
+  padding: 13px 20px;
+  color: #fff; /* Added text color */
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Updated hover color */
+}
+
+/* Style for text alignment */
+.AlignStart {
+  text-align: start;
+}
+
+.centerText {
+  text-align: center;
+  align-self: center;
+}
+
+/* Additional styles can go here */
